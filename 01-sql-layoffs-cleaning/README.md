@@ -87,11 +87,4 @@ Script: [`layoffs_exploratory_analysis.sql`](layoffs_exploratory_analysis.sql)
 
 ## What I Learned
 
-- Keeping the raw data untouched by working on staging tables.
-- Finding duplicates with window functions when a table has no unique ID.
-- Reading results carefully: checking what a column is sorted by, and what time period a total covers.
-
-## Next Steps
-
-- Change `percentage_laid_off` to a numeric type.
-- Build a Tableau or Power BI dashboard from the cleaned table.
+- Learned to check what a result is sorted by and what period it covers before drawing a conclusion. At first I read 2023 as the biggest year, but 2022 had the highest total, and 2023 only had about two months of data.
